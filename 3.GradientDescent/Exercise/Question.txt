@@ -1,0 +1,4 @@
+Maths & Computer science score of 11 students are provided. 
+Using Gradient descent algorithm, find the correlation coefficient & intercept between Maths & Computer Science score. 
+The algorithm should stop improving when cost difference between two successive iterations become less than 10^-40.
+Hint: You may need a very high number of iterations, trial and error to find the optimum learning rate.
