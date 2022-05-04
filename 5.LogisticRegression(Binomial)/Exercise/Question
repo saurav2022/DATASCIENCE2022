@@ -1,0 +1,7 @@
+HR Employee Retention Analysis:
+
+1. Do some EDA on the entire data set to understand which all factors influence employee retention the most.
+2. Plot bar charts showing salary vs retention.
+3. Plot bar charts showing correlation between dept vs retnetion.
+4. Build a logistic regression model after carefully choosing the most influensive features.
+5. Measure the accuracy of your model.
