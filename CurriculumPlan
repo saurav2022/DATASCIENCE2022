@@ -1,0 +1,39 @@
+Machine Learning Topics:
+0. Pandas Complete Cheatsheet (Datatype, Filter rows, Delete rows, Pivot, Group By, Melt, Plotting, Joining)
+1. Linear Regression
+2. Multivariate Linear Regression
+3. Gradient Descent algorithm
+4. Saving a model and reusing it
+5. Nominal Variables - label Encoding, One Hot Encoding, Pipelines
+6. Train test split
+7. Logistic Regression
+8. Multiclass Logistic Regression
+8a. Scaling (MinMaxScaler, StandardScaler)
+8c. ROC-AUC
+8b. Imputation/Null Value Replacement
+
+9. Decision Tree (Entropy, Gini Impurity, Information Gain)
+10. Support Vector Machine
+11. Random Forest
+12. Naive Bayes 
+13. K means Clustering
+14. K Fold Cross Validation
+15. Binning & Bagging
+16. Grid Search
+17. Regularisation
+18. Primncipal Component Analysis
+19. K nearest neighbors
+20. Cosine similarity
+
+Deep Learning
+21. NLP
+22. Deep Learning
+23. Keras, TensorFlow
+24. openCV
+
+Job Role:
+    A. Data Engineer(Read xls, csv, json; Cleanse; Web Scraping; How to read files from S3; S3 > Cleanse > Redshift; PySpark; DataBricks)
+    B. Business Analyst/ Product Owner 
+    C. Data Analyst
+    D. DWH
+    E. Data Scientist
