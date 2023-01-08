@@ -4,7 +4,7 @@ OWM_endpoint = "https://api.openweathermap.org/data/2.5/weather"
 weather_params = {
     "lat": 22.572645,
     "lon": 88.363892,
-    "appid" : 'c547b299a355cbfc5df671951a7ac39d'
+    "appid" : '...'
 }
 
 try:
