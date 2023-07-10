@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Renault Feedback Portal</title>
+</head>
+
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Renault_2009_logo.svg/2048px-Renault_2009_logo.svg.png"
+        alt="Renault_Logo" height="100" width="100">
+    <form action="/submit" method="POST">
+        <h3>Customer Name</h3>
+        <input type="text" name="customer" placeholder="John Doe">
+
+        <h3>Dealer Name</h3>
+        <select name="dealer">
+            <option value="Bagaria Motors">Bagaria Motors</option>
+            <option value="Renault Howrah">Renault Howrah</option>
+            <option value="Renault Kolkata South">Renault Kolkata South</option>
+            <option value="Renault Kolkata Central">Renault Kolkata Central</option>
+        </select>
+
+        <h3>Rating</h3>
+        <input type="radio" name="rating" value="1" /> 1
+        <input type="radio" name="rating" value="2" /> 2
+        <input type="radio" name="rating" value="3" /> 3
+        <input type="radio" name="rating" value="4" /> 4
+        <input type="radio" name="rating" value="5" /> 5
+        <input type="radio" name="rating" value="6" /> 6
+        <input type="radio" name="rating" value="7" /> 7
+        <input type="radio" name="rating" value="8" /> 8
+        <input type="radio" name="rating" value="9" /> 9
+        <input type="radio" name="rating" value="10" /> 10
+
+        <h3>
+            Comments
+        </h3>
+        <textarea name="comments" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Submit" class="btn">
+
+
+    </form>
+</body>
+
+</html>
