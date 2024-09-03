@@ -1,0 +1,15 @@
+Customer_Id,Customer_Name,Trans_Amt,Trans_Type
+123,Narendra,100,UPI
+124,Amit,200,Cash
+125,Smriti,150,UPI
+222,nitish,300,UPI
+128,Deependra,250,Cash
+444,Jaishankar,500,UPI
+333,Sukanta,400,Cash
+123,Narendra,700,UPI
+222,nitish,400,UPI
+128,Deependra,1600,UPI
+222,nitish,600,Cash
+124,Amit,100,UPI
+128,deependra,200,Cash
+124,Amit,100,Cash

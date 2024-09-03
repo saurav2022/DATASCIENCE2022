@@ -11,11 +11,11 @@ from airflow.providers.google.cloud.transfers.gcs_to_bigquery import (
 
 CLUSTER_NAME = "dataproc-airflow-cluster"
 REGION = "us-central1"
-PROJECT_ID = "gcp11oct"
-GCS_GCS_PYSPARK_URI = "gs://dp-airflow-bkt/Code/gcs_gcs.py"
-BQ_BQ_PYSPARK_URI = "gs://dp-airflow-bkt/Code/bq_bq.py"
-GCS_BUCKET = "dp-airflow-bkt"
-BQ_TABLE = "gcp11oct.ds_hmda.gcs_parquet_to_bq"
+PROJECT_ID = "gcp14oct"
+GCS_GCS_PYSPARK_URI = "gs://dp-airflow-bkt1/Code/gcs_gcs.py"
+BQ_BQ_PYSPARK_URI = "gs://dp-airflow-bkt1/Code/bq_bq.py"
+GCS_BUCKET = "dp-airflow-bkt1"
+BQ_TABLE = "gcp14oct.ds_hmda.gcs_parquet_to_bq"
 
 CLUSTER_CONFIG = {
     "master_config": {

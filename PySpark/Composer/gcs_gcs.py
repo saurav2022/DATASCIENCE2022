@@ -1,8 +1,8 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 
-GCS_DATA_SOURCE_PATH = "gs://dp-airflow-bkt/data/hmda.csv"
-GCS_DATA_OUTPUT_PATH = "gs://dp-airflow-bkt/output_files/"
+GCS_DATA_SOURCE_PATH = "gs://dp-airflow-bkt1/data/hmda.csv"
+GCS_DATA_OUTPUT_PATH = "gs://dp-airflow-bkt1/output_files/"
 
 
 def gcs_gcs_run():

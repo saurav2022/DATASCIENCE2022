@@ -1,11 +1,11 @@
 from pyspark.sql import SparkSession
 
-BQ_SRC_TABLE = "gcp11oct.ds_hmda.gcs_parquet_to_bq"
-BQ_DEST_TABLE = "gcp11oct.ds_hmda.county_distribution"
+BQ_SRC_TABLE = "gcp14oct.ds_hmda.gcs_parquet_to_bq"
+BQ_DEST_TABLE = "gcp14oct.ds_hmda.county_distribution"
 
 spark = SparkSession.builder.master("yarn").appName("bq_to_bq_transform").getOrCreate()
 
-BUCKET = "dp-airflow-bkt"
+BUCKET = "dp-airflow-bkt1"
 spark.conf.set("temporaryGcsBucket", BUCKET)
 
 hmda = spark.read.format("bigquery").option("table", BQ_SRC_TABLE).load()
